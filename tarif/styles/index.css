@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Playfair+Display&family=Titillium+Web&display=swap');
+
+body{
+    background-color: #E0C9A9; /*color picker ile alındı*/
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1{
+    color: #612A15;
+}
+pre{
+    font-size: large;
+}
+
+.tarif{
+    width: 42%;
+    height: 600px;
+    position: relative;
+    left: 600px;
+}
+
+.tarif p>strong{
+    color: #9C5538;
+}
+
+.bilgi{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.tarif .malze{
+    border-radius: 20px;
+    color: white;
+    padding: 4px;
+    background-color: #963102;
+    display: inline-block;
+}
+.tarif h2{
+    float: right;
+}
+
